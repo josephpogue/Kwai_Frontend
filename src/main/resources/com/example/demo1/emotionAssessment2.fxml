@@ -12,42 +12,42 @@
                <font>
                   <Font name="Calibri" size="12.0" />
                </font></CheckBox>
-            <CheckBox layoutX="61.0" layoutY="232.0" mnemonicParsing="false" text="bored" textFill="#5a5a89">
+            <CheckBox layoutX="61.0" layoutY="232.0" mnemonicParsing="false" onAction="#bored" text="bored" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="61.0" layoutY="267.0" mnemonicParsing="false" text="worried" textFill="#5a5a89">
+            <CheckBox layoutX="61.0" layoutY="267.0" mnemonicParsing="false" onAction="#worried" text="worried" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="160.0" layoutY="197.0" mnemonicParsing="false" text="calm" textFill="#5a5a89">
+            <CheckBox layoutX="160.0" layoutY="197.0" mnemonicParsing="false" onAction="#calm" text="calm" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="160.0" layoutY="233.0" mnemonicParsing="false" text="distracted" textFill="#5a5a89">
+            <CheckBox layoutX="160.0" layoutY="233.0" mnemonicParsing="false" onAction="#distracted" text="distracted" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="160.0" layoutY="268.0" mnemonicParsing="false" text="focused" textFill="#5a5a89">
+            <CheckBox layoutX="160.0" layoutY="268.0" mnemonicParsing="false" onAction="#focused" text="focused" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox id="relaxed" layoutX="255.0" layoutY="197.0" mnemonicParsing="false" onAction="#content" text="relaxed" textFill="#5a5a89">
+            <CheckBox id="relaxed" layoutX="255.0" layoutY="197.0" mnemonicParsing="false" onAction="#relaxed" text="relaxed" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="255.0" layoutY="233.0" mnemonicParsing="false" text="upset" textFill="#5a5a89">
+            <CheckBox layoutX="255.0" layoutY="233.0" mnemonicParsing="false" onAction="#angry" text="angry" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>
             </CheckBox>
-            <CheckBox layoutX="255.0" layoutY="268.0" mnemonicParsing="false" text="inspired" textFill="#5a5a89">
+            <CheckBox layoutX="255.0" layoutY="268.0" mnemonicParsing="false" onAction="#inspired" text="inspired" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="12.0" />
                </font>

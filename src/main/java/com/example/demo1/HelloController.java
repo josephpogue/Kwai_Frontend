@@ -161,26 +161,67 @@ public class HelloController {
 
     @FXML
     void content(ActionEvent event) throws IOException {
-        valence += 9;
-        arousal += 9;
-
-        System.out.println(valence);
-        System.out.println(arousal);
+        valence += 10;
+        arousal -= 7;
     }
 
     @FXML
     void calm(ActionEvent event) throws IOException {
-        valence += 9;
+        valence += 6;
+        arousal -= 6;
+    }
+
+    @FXML
+    void bored(ActionEvent event) throws IOException {
+        valence -= 3;
+        arousal -= 8;
+    }
+
+    @FXML
+    void worried(ActionEvent event) throws IOException {
+        valence -= 2;
+        arousal -= 3;
+    }
+
+    @FXML
+    void distracted(ActionEvent event) throws IOException {
+        valence -= 1;
+        arousal += 3;
+    }
+
+    @FXML
+    void focused(ActionEvent event) throws IOException {
+        valence += 5;
+        arousal -= 5;
+    }
+
+    @FXML
+    void relaxed(ActionEvent event) throws IOException {
+        valence += 6;
+        arousal -= 10;
+    }
+
+    @FXML
+    void angry(ActionEvent event) throws IOException {
+        valence -= 5;
         arousal += 9;
+    }
+
+    @FXML
+    void inspired(ActionEvent event) throws IOException {
+        valence += 5;
+        arousal += 4;
+    }
+
+    @FXML
+    void frustrated(ActionEvent event) throws IOException {
+        valence -= 5;
+        arousal += 5;
     }
 
 
     @FXML
     void submitForm(ActionEvent event) throws IOException {
-
-//        if (content.isSelected()) {
-//            System.out.println("content");
-//        }
 
         root = FXMLLoader.load(getClass().getResource("emotionAssessment3.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -188,6 +229,8 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
 
+        System.out.println(valence);
+        System.out.println(arousal);
 
     }
 
