@@ -42,7 +42,7 @@ public class HelloController {
 
     @FXML
     void showNextScreen(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("/emotionAssessment2.fxml"));
+        root = FXMLLoader.load(getClass().getResource("emotionAssessment2.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
