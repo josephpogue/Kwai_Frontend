@@ -13,8 +13,6 @@ import java.io.IOException;
 
 public class EmotionalAss extends Application {
 
-    public static int valence;
-    public static int arousal;
 
     @Override
     public void start(Stage stage) {
@@ -29,7 +27,8 @@ public class EmotionalAss extends Application {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+//        HelloController.start();
         launch(args);
     }
 }
