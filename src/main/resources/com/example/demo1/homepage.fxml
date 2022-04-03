@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="599.0" style="-fx-background-image: D:\KY\src\main\resources\com\example\ky_demo\KY_image2.png;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="599.0" style="-fx-background-image: D:\KY\src\main\resources\com\example\ky_demo\KY_image2.png;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
    <children>
       <ImageView fitHeight="336.0" fitWidth="601.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -16,7 +16,7 @@
       </ImageView>
       <AnchorPane layoutX="178.0" layoutY="55.0" prefHeight="205.0" prefWidth="226.0" style="-fx-background-color: #191932#191932;">
          <children>
-            <Button layoutX="36.0" layoutY="146.0" mnemonicParsing="false" onAction="#emotionControl" prefHeight="16.0" prefWidth="26.0" text="BTN">
+            <Button layoutX="36.0" layoutY="146.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="26.0" text="BTN">
                <font>
                   <Font size="7.0" />
                </font>
@@ -48,7 +48,7 @@
                <font>
                   <Font size="9.0" />
                </font></Label>
-            <Button layoutX="99.0" layoutY="146.0" mnemonicParsing="false" onAction="#listen" prefHeight="16.0" prefWidth="26.0" text="BTN">
+            <Button layoutX="99.0" layoutY="146.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="26.0" text="BTN">
                <font>
                   <Font size="7.0" />
                </font>

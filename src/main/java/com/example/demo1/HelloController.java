@@ -48,14 +48,14 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
     }
-//    @FXML
-//    void customization(ActionEvent event) throws IOException{
-//        root = FXMLLoader.load(getClass().getResource("/customization.fxml"));
-//        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-//        scene = new Scene(root);
-//        stage.setScene(scene);
-//        stage.show();
-//    }
+    @FXML
+    void customization(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("/customization.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 
     @FXML
     void one(ActionEvent event) throws IOException {
