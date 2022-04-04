@@ -26,18 +26,6 @@ public class HelloController {
     public int valence = 0;
     public int arousal = 0;
 
-//    @FXML
-//    public static void start(Stage stage) throws IOException {
-//        try {
-//            Parent root = FXMLLoader.load(HelloController.class.getResource("emotionAssessment.fxml"));
-//            Scene scene = new Scene(root);
-//            stage.setScene(scene);
-//            stage.show();
-//        } catch(Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 
 
     @FXML
@@ -255,29 +243,6 @@ public class HelloController {
         valence -= 5;
         arousal += 5;
     }
-
-    @FXML
-//    private Button b1;
-    public Label label1;
-
-//    @FXML
-//    void submitForm(ActionEvent event) throws IOException {
-//
-////        b1.setText("relaxed");
-////        label1.setText("relaxed");
-//
-//        root = FXMLLoader.load(getClass().getResource("emotionAssessment3.fxml"));
-//        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-//        scene = new Scene(root);
-//        stage.setScene(scene);
-//        stage.show();
-//
-////        getPresets();
-//
-//        System.out.println(valence);
-//        System.out.println(arousal);
-//
-//    }
 
     public void gotoPreset(ActionEvent event) {
         Button button = (Button) event.getSource();

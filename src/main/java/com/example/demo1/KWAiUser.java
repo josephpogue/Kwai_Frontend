@@ -25,9 +25,7 @@ public class KWAiUser {
         this.valence = valence;
     }
 
-    public void addValence(int valence){
-        this.valence += valence;
-    }
+    public void addValence(int valence){this.valence += valence;}
 
     public int getValence() {
         return valence;
@@ -36,9 +34,7 @@ public class KWAiUser {
     public void setArousal(int arousal) {
         this.arousal = arousal;
     }
-    public void addArousal(int arousal){
-        this.arousal += arousal;
-    }
+    public void addArousal(int arousal){this.arousal += arousal;}
 
     public int getArousal() {
         return arousal;
