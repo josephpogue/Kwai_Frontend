@@ -18,10 +18,10 @@
                   <Font name="Calibri" size="10.0" />
                </font>
             </Label>
-            <Button fx:id="calm" layoutX="62.0" layoutY="240.0" mnemonicParsing="false" text="Calm" />
-            <Button fx:id="happy" layoutX="159.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Happy" />
-            <Button fx:id="relax" layoutX="268.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Relax" />
-            <Button fx:id="creative" layoutX="62.0" layoutY="240.0" mnemonicParsing="false" text="Creative" />
+            <Button fx:id="calm" layoutX="129.0" layoutY="240.0" mnemonicParsing="false" text="Calm" />
+            <Button fx:id="happy" layoutX="202.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Happy" />
+            <Button fx:id="relax" layoutX="289.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Relax" />
+            <Button fx:id="creative" layoutX="31.0" layoutY="240.0" mnemonicParsing="false" text="Creative" />
          </children></AnchorPane>
    </children>
 </AnchorPane>

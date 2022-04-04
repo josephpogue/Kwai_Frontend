@@ -46,15 +46,47 @@ public class emotionAssessment3 implements Initializable{
         valence = user.getValence();
         arousal = user.getArousal();
 
-        if(valence>0&&arousal>0){
+        happy.setVisible(false);
+        happy.setManaged(false);
+
+        if (valence < -5) {
+            calm.setVisible(false);
+            calm.setManaged(false);
             creative.setVisible(false);
             creative.setManaged(false);
             relax.setVisible(false);
             relax.setManaged(false);
         }
-
-
-
+        else if (arousal < -15) {
+            happy.setVisible(false);
+            happy.setManaged(false);
+            creative.setVisible(false);
+            creative.setManaged(false);
+        }
+        else if (valence >= -5 && valence < 0 && arousal >= -10 && arousal < 0) {
+            calm.setVisible(false);
+            calm.setManaged(false);
+            creative.setVisible(false);
+            creative.setManaged(false);
+        }
+        else if (valence >= 15 && arousal >= 0) {
+            relax.setVisible(false);
+            relax.setManaged(false);
+            if (valence > 27) {
+                calm.setVisible(false);
+                calm.setManaged(false);
+            }
+            else if (arousal >= 10) {
+                creative.setVisible(false);
+                creative.setManaged(false);
+            }
+        }
+        else if (valence >= -1 && arousal < 4 && arousal < -10) {
+            happy.setVisible(false);
+            happy.setManaged(false);
+            creative.setVisible(false);
+            creative.setManaged(false);
+        }
 
     }
 
