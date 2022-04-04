@@ -38,13 +38,20 @@ public class HelloController {
 //        }
 //    }
 
+
+
     @FXML
     void showNextScreen(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("emotionAssessment2.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("emotionAssessment.fxml"));
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     @FXML
     void customization(ActionEvent event) throws IOException{

@@ -4,25 +4,10 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="901.0" style="-fx-background-color: rgb(5,5,15,1); -fx-background-image: KY_image2.png;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="901.0" style="-fx-background-color: rgb(5,5,15,1); -fx-background-image: KY_image2.png;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.emotionAssessment3">
    <children>
       <AnchorPane fx:id="pane1" layoutX="271.0" layoutY="107.0" prefHeight="338.0" prefWidth="377.0" style="-fx-background-color: rgb(25,25,50,1);">
          <children>
-            <CheckBox layoutX="49.0" layoutY="233.0" mnemonicParsing="false" text="calm" textFill="#5a5a89">
-               <font>
-                  <Font name="Calibri" size="12.0" />
-               </font>
-            </CheckBox>
-            <CheckBox layoutX="163.0" layoutY="233.0" mnemonicParsing="false" text="happy" textFill="#5a5a89">
-               <font>
-                  <Font name="Calibri" size="12.0" />
-               </font>
-            </CheckBox>
-            <CheckBox layoutX="260.0" layoutY="233.0" mnemonicParsing="false" text="relaxed" textFill="#5a5a89">
-               <font>
-                  <Font name="Calibri" size="12.0" />
-               </font>
-            </CheckBox>
             <Label layoutX="89.0" layoutY="131.0" prefHeight="65.0" prefWidth="200.0" text="based on your answers we recommend:" textAlignment="CENTER" textFill="#fdfdfd">
                <font>
                   <Font name="Calibri" size="12.0" />
@@ -33,12 +18,10 @@
                   <Font name="Calibri" size="10.0" />
                </font>
             </Label>
-            <Button fx:id="switchButton" layoutX="146.0" layoutY="308.0" mnemonicParsing="false" onAction="#submitForm" prefHeight="16.0" prefWidth="80.0" style="-fx-background-color: rgb(90,90,137,1);" text="play" textFill="#838395">
-               <font>
-                  <Font name="Calibri" size="10.0" />
-               </font>
-            </Button>
-            <Label layoutX="57.0" layoutY="60.0" text="Label" />
+            <Button fx:id="calm" layoutX="62.0" layoutY="240.0" mnemonicParsing="false" text="Calm" />
+            <Button fx:id="happy" layoutX="159.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Happy" />
+            <Button fx:id="relax" layoutX="268.0" layoutY="240.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Relax" />
+            <Button fx:id="creative" layoutX="62.0" layoutY="240.0" mnemonicParsing="false" text="Creative" />
          </children></AnchorPane>
    </children>
 </AnchorPane>
