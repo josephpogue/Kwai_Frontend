@@ -40,7 +40,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" layoutX="32.0" layoutY="257.0" mnemonicParsing="false" onAction="#listen" prefHeight="23.0" prefWidth="97.0" style="-fx-background-color: rgb(25,25,50,1) rgb(25,25,50,1);" text="Emotion" textFill="#5a5a89">
+            <Button alignment="BASELINE_LEFT" layoutX="32.0" layoutY="257.0" mnemonicParsing="false" onAction="#emotionControl" prefHeight="23.0" prefWidth="97.0" style="-fx-background-color: rgb(25,25,50,1) rgb(25,25,50,1);" text="Emotion" textFill="#5a5a89">
                <font>
                   <Font size="12.0" />
                </font>
@@ -52,7 +52,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" layoutX="247.0" layoutY="258.0" mnemonicParsing="false" onAction="#listen" prefHeight="23.0" prefWidth="97.0" style="-fx-background-color: rgb(25,25,50,1) rgb(25,25,50,1);" text="Customize" textFill="#5a5a89">
+            <Button alignment="BASELINE_LEFT" layoutX="247.0" layoutY="258.0" mnemonicParsing="false" onAction="#customization" prefHeight="23.0" prefWidth="97.0" style="-fx-background-color: rgb(25,25,50,1) rgb(25,25,50,1);" text="Customize" textFill="#5a5a89">
                <font>
                   <Font size="12.0" />
                </font>

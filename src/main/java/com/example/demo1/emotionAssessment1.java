@@ -188,6 +188,4 @@ public class emotionAssessment1 implements Initializable {
         user.setArousal(9);
     }
 
-
-
 }

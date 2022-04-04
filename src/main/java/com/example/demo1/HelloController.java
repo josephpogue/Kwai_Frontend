@@ -26,7 +26,6 @@ public class HelloController {
     public int valence = 0;
     public int arousal = 0;
 
-
     @FXML
     void emotionControl(ActionEvent event) throws IOException{
         root = FXMLLoader.load(getClass().getResource("emotionAssessment.fxml"));
@@ -35,6 +34,8 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
     }
+
+
     @FXML
     void showNextScreen(ActionEvent event) throws IOException {
         try {

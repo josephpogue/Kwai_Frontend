@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="901.0" style="-fx-background-color: rgb(5,5,15,1); -fx-background-image: KY_image2.png;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.emotionAssessment1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="901.0" style="-fx-background-color: rgb(5,5,15,1); -fx-background-image: KY_image2.png;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.emotionAssessment1">
    <children>
       <AnchorPane layoutX="271.0" layoutY="107.0" prefHeight="338.0" prefWidth="377.0" style="-fx-background-color: rgb(25,25,50,1);">
          <children>
@@ -78,7 +78,7 @@
         <menus>
           <Menu mnemonicParsing="false">
                <graphic>
-                  <ImageView fitHeight="28.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="28.0" fitWidth="54.0" onMouseClicked="#home" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@kwai_icons/kwai_logo.png" />
                      </image>
