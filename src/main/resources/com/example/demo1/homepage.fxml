@@ -14,14 +14,14 @@
             <Image url="@kwai_icons/bg.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="178.0" layoutY="55.0" prefHeight="205.0" prefWidth="226.0" style="-fx-background-color: #191932#191932;">
+      <AnchorPane layoutX="178.0" layoutY="55.0" prefHeight="205.0" prefWidth="226.0" style="-fx-background-color: #181832;">
          <children>
-            <Button layoutX="36.0" layoutY="146.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="26.0" text="BTN">
+            <Button layoutX="36.0" layoutY="146.0" mnemonicParsing="false" onAction="#emotionControl" prefHeight="16.0" prefWidth="26.0" text="BTN">
                <font>
                   <Font size="7.0" />
                </font>
             </Button>
-            <Label layoutX="19.0" layoutY="169.0" text="Emotion Control">
+            <Label layoutX="19.0" layoutY="169.0" text="Emotion Control" textFill="#5a5a89">
                <font>
                   <Font size="9.0" />
                </font></Label>
@@ -40,15 +40,15 @@
                   <Font size="11.0" />
                </font>
             </Label>
-            <Label layoutX="102.0" layoutY="169.0" text="Listen">
+            <Label layoutX="102.0" layoutY="169.0" text="Listen" textFill="#5a5a89">
                <font>
                   <Font size="9.0" />
                </font></Label>
-            <Label layoutX="155.0" layoutY="169.0" text="Customize">
+            <Label layoutX="155.0" layoutY="169.0" text="Customize" textFill="#5a5a89">
                <font>
                   <Font size="9.0" />
                </font></Label>
-            <Button layoutX="99.0" layoutY="146.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="26.0" text="BTN">
+            <Button layoutX="99.0" layoutY="146.0" mnemonicParsing="false" onAction="#listen" prefHeight="16.0" prefWidth="26.0" text="BTN">
                <font>
                   <Font size="7.0" />
                </font>
