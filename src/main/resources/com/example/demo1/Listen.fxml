@@ -9,81 +9,77 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="599.0" style="-fx-background-image: D:\KY\src\main\resources\com\example\ky_demo\KY_image2.png;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="901.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
    <children>
-      <ImageView fitHeight="336.0" fitWidth="601.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@kwai_icons/bg.png" />
-         </image>
-      </ImageView>
-      <AnchorPane layoutX="178.0" layoutY="110.0" prefHeight="98.0" prefWidth="226.0" style="-fx-background-color: #191932#191932;">
+      <AnchorPane layoutX="271.0" layoutY="107.0" prefHeight="338.0" prefWidth="377.0" style="-fx-background-color: #191932#191932;">
          <children>
-            <Button layoutX="14.0" layoutY="45.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="38.0" style="-fx-background-color: #13FED4#13FED4;" text="Relaxed ">
+            <Button layoutX="42.0" layoutY="176.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="71.0" style="-fx-background-color: #13FED4#13FED4;" text="Relaxed ">
                <font>
                   <Font size="7.0" />
                </font>
             </Button>
-            <Label alignment="CENTER" layoutX="7.0" layoutY="14.0" prefHeight="16.0" prefWidth="213.0" text="Based on your responses we recommend the following moods" textAlignment="CENTER" textFill="#5a5a89" wrapText="true">
+            <Label alignment="CENTER" layoutX="60.0" layoutY="123.0" prefHeight="16.0" prefWidth="276.0" text="Based on your responses we recommend the following moods" textAlignment="CENTER" textFill="#5a5a89" wrapText="true">
                <font>
-                  <Font size="8.0" />
+                  <Font size="10.0" />
                </font>
             </Label>
-            <Button layoutX="95.0" layoutY="45.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="38.0" style="-fx-background-color: #d3801d#d3801d;" text="Happy">
+            <Button layoutX="161.0" layoutY="174.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #d3801d#d3801d;" text="Happy">
                <font>
                   <Font size="7.0" />
                </font>
             </Button>
-            <Button layoutX="166.0" layoutY="45.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="46.0" style="-fx-background-color: #f0515a#f0515a;" text="Motivation">
+            <Button layoutX="283.0" layoutY="176.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="57.0" style="-fx-background-color: #f0515a#f0515a;" text="Motivation">
                <font>
                   <Font size="7.0" />
                </font>
             </Button>
-            <Button layoutX="52.0" layoutY="76.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="46.0" style="-fx-background-color: #1878f3#1878f3;" text="Calm">
+            <Button layoutX="100.0" layoutY="269.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="57.0" style="-fx-background-color: #1878f3#1878f3;" text="Calm">
                <font>
                   <Font size="7.0" />
                </font>
             </Button>
-            <Button layoutX="127.0" layoutY="76.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="46.0" style="-fx-background-color: #bc42f5#bc42f5;" text="Sleepy">
+            <Button layoutX="238.0" layoutY="272.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="57.0" style="-fx-background-color: #bc42f5#bc42f5;" text="Sleepy">
                <font>
                   <Font size="7.0" />
                </font>
             </Button>
+            <ImageView fitHeight="76.0" fitWidth="85.0" layoutX="148.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@kwai_icons/user_emotion_icon.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
-      <MenuBar prefHeight="28.0" prefWidth="600.0" style="-fx-background-color: #191932#191932 #191932#191932;">
-        <menus>
-          <Menu mnemonicParsing="false">
+      <MenuBar prefHeight="28.0" prefWidth="901.0" style="-fx-background-color: rgb(25,25,50,1) rgb(25,25,50,1);">
+         <menus>
+            <Menu mnemonicParsing="false">
                <graphic>
-                  <ImageView fitHeight="45.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="28.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@kwai_icons/kwai_logo.png" />
                      </image>
                   </ImageView>
                </graphic>
-          </Menu>
-          <Menu mnemonicParsing="false" onAction="#userDashboard" onMenuValidation="#userDashboard">
+            </Menu>
+            <Menu mnemonicParsing="false">
                <graphic>
-                  <Button mnemonicParsing="false" onAction="#userDashboard" prefHeight="7.0" prefWidth="5.0" style="-fx-background-color: transparant;">
-                     <graphic>
-                        <ImageView fitHeight="16.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@kwai_icons/profile.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kwai_icons/profile.png" />
+                     </image>
+                  </ImageView>
                </graphic>
-          </Menu>
-          <Menu mnemonicParsing="false">
+            </Menu>
+            <Menu mnemonicParsing="false">
                <graphic>
-                  <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@kwai_icons/settings.png" />
                      </image>
                   </ImageView>
                </graphic>
-          </Menu>
-        </menus>
+            </Menu>
+         </menus>
       </MenuBar>
    </children>
 </AnchorPane>
