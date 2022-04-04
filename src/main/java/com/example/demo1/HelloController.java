@@ -23,6 +23,9 @@ public class HelloController {
     private Scene scene;
     private Parent root;
 
+    @FXML
+    private Parent rooter;
+
     public int valence = 0;
     public int arousal = 0;
 
@@ -34,6 +37,16 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
     }
+
+    @FXML
+    void home(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
 
 
     @FXML

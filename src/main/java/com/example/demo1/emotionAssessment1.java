@@ -30,6 +30,9 @@ public class emotionAssessment1 implements Initializable {
     public int valence = 0;
     public int arousal = 0;
 
+    @FXML
+    private Parent rooter;
+
     public static KWAiUser user =new KWAiUser(0,0);
 
     @Override
@@ -186,6 +189,16 @@ public class emotionAssessment1 implements Initializable {
 
         user.setValence(9);
         user.setArousal(9);
+    }
+
+
+    @FXML
+    void home(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
 }

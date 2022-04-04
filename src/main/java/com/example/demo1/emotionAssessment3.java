@@ -22,6 +22,10 @@ import java.util.ResourceBundle;
 
 public class emotionAssessment3 implements Initializable{
 
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
+
     @FXML
     private Label lbl1;
     public static Label static_label;
@@ -34,10 +38,24 @@ public class emotionAssessment3 implements Initializable{
     @FXML
     private Button relax;
 
+    @FXML
+    private Parent rooter;
+
     private int valence;
     private int arousal;
 
     KWAiUser user = emotionAssessment1.user;
+
+    @FXML
+    void home(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -89,5 +107,7 @@ public class emotionAssessment3 implements Initializable{
         }
 
     }
+
+
 
 }

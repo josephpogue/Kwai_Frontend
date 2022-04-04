@@ -27,6 +27,9 @@ public class emotionAssessment2 implements Initializable {
 
     KWAiUser user = emotionAssessment1.user;
 
+    @FXML
+    private Parent rooter;
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     }
@@ -98,6 +101,17 @@ public class emotionAssessment2 implements Initializable {
         user.addValence(-5);
         user.addArousal(5);
     }
+
+    @FXML
+    void home(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+
     @FXML
     void submitForm(ActionEvent event) throws IOException {
         try {
