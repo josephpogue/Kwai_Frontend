@@ -14,6 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import processing.core.PApplet;
 
 import java.io.IOException;
 
@@ -72,12 +73,10 @@ public class HelloController {
     }
     @FXML
     void customization(ActionEvent event) throws IOException{
-        root = FXMLLoader.load(getClass().getResource("customization.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        PApplet.main("Relax");
     }
+
+
     @FXML
     void listen(ActionEvent event) throws IOException{
         root = FXMLLoader.load(getClass().getResource("listen.fxml"));

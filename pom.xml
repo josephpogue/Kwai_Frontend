@@ -15,6 +15,83 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>core</groupId>
+            <artifactId>core</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/core.jar</systemPath>
+        </dependency>
+
+
+        <dependency>
+            <groupId>jl1.0.1</groupId>
+            <artifactId>jl1.0.1</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/jl1.0.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jogl-all</groupId>
+            <artifactId>jogl-all</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/jogl-all.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jsminim</groupId>
+            <artifactId>jsminim</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/jsminim.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>minim</groupId>
+            <artifactId>minim</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/minim.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>mp3spi1.9.5</groupId>
+            <artifactId>mp3spi1.9.5</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/mp3spi1.9.5.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>relax</groupId>
+            <artifactId>relax</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/relax.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>tritonus_aos</groupId>
+            <artifactId>tritonus_aos</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/tritonus_aos.jar</systemPath>
+        </dependency>
+
+
+        <dependency>
+            <groupId>tritonus_share</groupId>
+            <artifactId>tritonus_share</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/tritonus_share.jar</systemPath>
+        </dependency>
+
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>

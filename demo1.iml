@@ -10,6 +10,87 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="Maven: core:core:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/core.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Maven: jl1.0.1:jl1.0.1:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jl1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Maven: jogl-all:jogl-all:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jogl-all.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Maven: jsminim:jsminim:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jsminim.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Maven: minim:minim:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/minim.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="Maven: mp3spi1.9.5:mp3spi1.9.5:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/mp3spi1.9.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: relax:relax:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/relax.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: tritonus_aos:tritonus_aos:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/tritonus_aos.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: tritonus_share:tritonus_share:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/tritonus_share.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:16" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:16" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:16" level="project" />
@@ -24,5 +105,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="core" level="project" />
   </component>
 </module>
