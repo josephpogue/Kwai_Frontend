@@ -10,7 +10,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="library" exported="" name="core" level="project" />
+    <orderEntry type="module-library">
       <library name="Maven: core:core:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/core.jar!/" />
@@ -19,7 +20,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library name="Maven: jl1.0.1:jl1.0.1:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/jl1.0.1.jar!/" />
@@ -28,7 +29,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library name="Maven: jogl-all:jogl-all:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/jogl-all.jar!/" />
@@ -37,7 +38,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library name="Maven: jsminim:jsminim:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/jsminim.jar!/" />
@@ -46,7 +47,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library name="Maven: minim:minim:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/minim.jar!/" />
@@ -55,7 +56,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library name="Maven: mp3spi1.9.5:mp3spi1.9.5:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/mp3spi1.9.5.jar!/" />
@@ -105,6 +106,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
-    <orderEntry type="library" exported="" name="core" level="project" />
   </component>
 </module>

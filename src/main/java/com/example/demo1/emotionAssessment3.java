@@ -37,6 +37,8 @@ public class emotionAssessment3 implements Initializable{
     private Button creative;
     @FXML
     private Button relax;
+    @FXML
+    private Button sleep;
 
     @FXML
     private Parent rooter;
@@ -64,46 +66,66 @@ public class emotionAssessment3 implements Initializable{
         valence = user.getValence();
         arousal = user.getArousal();
 
-        happy.setVisible(false);
-        happy.setManaged(false);
 
-        if (valence < -5) {
+        // set the conditions for valence
+        if (valence > 17) {
+            creative.setVisible(false);
+            creative.setManaged(false);
             calm.setVisible(false);
             calm.setManaged(false);
-            creative.setVisible(false);
-            creative.setManaged(false);
-            relax.setVisible(false);
-            relax.setManaged(false);
-        }
-        else if (arousal < -15) {
-            happy.setVisible(false);
-            happy.setManaged(false);
-            creative.setVisible(false);
-            creative.setManaged(false);
-        }
-        else if (valence >= -5 && valence < 0 && arousal >= -10 && arousal < 0) {
-            calm.setVisible(false);
-            calm.setManaged(false);
-            creative.setVisible(false);
-            creative.setManaged(false);
-        }
-        else if (valence >= 15 && arousal >= 0) {
-            relax.setVisible(false);
-            relax.setManaged(false);
-            if (valence > 27) {
-                calm.setVisible(false);
-                calm.setManaged(false);
+            if (valence > 26) {
+                happy.setVisible(false);
+                happy.setManaged(false);
+                sleep.setVisible(false);
+                sleep.setManaged(false);
             }
-            else if (arousal >= 10) {
+        } else if (valence < 3) {
+            creative.setVisible(false);
+            creative.setManaged(false);
+            if (valence < 1) {
+                relax.setVisible(false);
+                relax.setManaged(false);
+                happy.setVisible(false);
+                happy.setManaged(false);
+            }
+            if (valence < -5) {
+                sleep.setVisible(false);
+                sleep.setManaged(false);
+            }
+        } else {
+            calm.setVisible(false);
+            calm.setManaged(false);
+        }
+
+        // set the conditions for arousal values
+        if (arousal > -1) {
+            sleep.setVisible(false);
+            sleep.setManaged(false);
+            if (arousal > 2) {
+                relax.setVisible(false);
+                relax.setManaged(false);
+            }
+            if (arousal > 14) {
                 creative.setVisible(false);
                 creative.setManaged(false);
             }
-        }
-        else if (valence >= -1 && arousal < 4 && arousal < -10) {
-            happy.setVisible(false);
-            happy.setManaged(false);
+            if (arousal > 21) {
+                happy.setVisible(false);
+                happy.setManaged(false);
+            }
+        } else {
             creative.setVisible(false);
             creative.setManaged(false);
+            if (arousal < -3) {
+                calm.setVisible(false);
+                calm.setManaged(false);
+                happy.setVisible(false);
+                happy.setManaged(false);
+            }
+            if (arousal < -27) {
+                relax.setVisible(false);
+                relax.setManaged(false);
+            }
         }
 
     }
