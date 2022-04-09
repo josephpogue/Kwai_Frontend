@@ -21,6 +21,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="Maven: sleep:sleep:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/sleep.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="Maven: jl1.0.1:jl1.0.1:1.0">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/jl1.0.1.jar!/" />

@@ -73,9 +73,8 @@ public class HelloController {
     }
     @FXML
     void customization(ActionEvent event) throws IOException{
-        PApplet.main("Relax");
+        PApplet.main("sleep");
     }
-
 
     @FXML
     void listen(ActionEvent event) throws IOException{
