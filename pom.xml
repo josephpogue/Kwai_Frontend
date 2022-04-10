@@ -24,6 +24,23 @@
             <systemPath>${project.basedir}/libs/core.jar</systemPath>
         </dependency>
 
+        <dependency>
+            <groupId>sleep</groupId>
+            <artifactId>sleep</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/sleep.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>Calm</groupId>
+            <artifactId>Calm</artifactId>
+            <scope>system</scope>
+            <version>1.0</version>
+            <systemPath>${project.basedir}/libs/Calm.jar</systemPath>
+        </dependency>
+
+
 
         <dependency>
             <groupId>jl1.0.1</groupId>

@@ -76,7 +76,6 @@ public class HelloController {
         PApplet.main("Relax");
     }
 
-
     @FXML
     void listen(ActionEvent event) throws IOException{
         root = FXMLLoader.load(getClass().getResource("listen.fxml"));
