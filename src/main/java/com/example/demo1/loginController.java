@@ -32,7 +32,6 @@ public class loginController {
     private PasswordField passwordPasswordField;
 
 
-
     public void loginButtonAction(ActionEvent e){
 
         if(usernameTextfield.getText().isBlank() == false && passwordPasswordField.getText().isBlank() ==false){
