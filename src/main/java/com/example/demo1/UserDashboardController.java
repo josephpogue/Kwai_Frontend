@@ -51,15 +51,19 @@ public class UserDashboardController implements Initializable{
     @FXML
     private LineChart lineChart;
 
+    KWAiUser user = emotionAssessment1.user;
+    private int valence;
+    private int arousal;
 
 
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-
-        aro.setText("150");
-        val.setText("300");
-        avg.setText("215");
+        valence = user.getValence();
+        arousal = user.getArousal();
+        aro.setText(Integer.toString(arousal));
+        val.setText(Integer.toString(valence));
+        avg.setText(Integer.toString((arousal + valence ) / 2));
         viz.setText("Happy");
         showLineCharts();
 
