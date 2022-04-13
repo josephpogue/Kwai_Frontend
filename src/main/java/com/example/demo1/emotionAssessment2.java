@@ -125,6 +125,9 @@ public class emotionAssessment2 implements Initializable {
             e.printStackTrace();
         }
 
+        System.out.println(user.getValence());
+        System.out.println(user.getArousal());
+
     }
 
 }
