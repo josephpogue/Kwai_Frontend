@@ -40,8 +40,6 @@
             <systemPath>${project.basedir}/libs/Calm.jar</systemPath>
         </dependency>
 
-
-
         <dependency>
             <groupId>jl1.0.1</groupId>
             <artifactId>jl1.0.1</artifactId>
