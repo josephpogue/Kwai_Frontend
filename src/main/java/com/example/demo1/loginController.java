@@ -21,7 +21,6 @@ public class loginController {
 
     @FXML
     private Parent rooter;
-
     @FXML
     private Button loginButton;
     @FXML
@@ -52,10 +51,24 @@ public class loginController {
     }
 
 
+    public void signupButtonAction(ActionEvent e){
+
+       //todo
+
+    }
 
     @FXML
     void home(ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    void userDashboard(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("userdashboard.fxml"));
         stage = (Stage)rooter.getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

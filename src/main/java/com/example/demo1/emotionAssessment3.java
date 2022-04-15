@@ -58,6 +58,15 @@ public class emotionAssessment3 implements Initializable{
         stage.show();
     }
 
+    @FXML
+    void userDashboard(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("userdashboard.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
 

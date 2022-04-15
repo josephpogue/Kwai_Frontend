@@ -64,7 +64,7 @@
                   <Font name="Calibri" size="12.0" />
                </font>
             </Label>
-            <Label layoutX="146.0" layoutY="86.0" prefHeight="65.0" prefWidth="87.0" text="emotion assessment" textAlignment="CENTER" textFill="#5a5a89">
+            <Label layoutX="146.0" layoutY="107.0" prefHeight="30.0" prefWidth="87.0" text="emotion assessment" textAlignment="CENTER" textFill="#5a5a89">
                <font>
                   <Font name="Calibri" size="10.0" />
                </font>
@@ -102,6 +102,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#userDashboard" text="dashboard" />
+               </items>
             </Menu>
             <Menu mnemonicParsing="false">
                <graphic>

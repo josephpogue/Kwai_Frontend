@@ -66,7 +66,7 @@ public class HelloController {
     @FXML
     void userDashboard(ActionEvent event) throws IOException{
         root = FXMLLoader.load(getClass().getResource("userdashboard.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage = (Stage)rooter.getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();

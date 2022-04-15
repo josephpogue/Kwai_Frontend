@@ -30,6 +30,24 @@ public class emotionAssessment2 implements Initializable {
     @FXML
     private Parent rooter;
 
+    @FXML
+    void home(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    void userDashboard(ActionEvent event) throws IOException{
+        root = FXMLLoader.load(getClass().getResource("userdashboard.fxml"));
+        stage = (Stage)rooter.getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     }
@@ -102,14 +120,7 @@ public class emotionAssessment2 implements Initializable {
         user.addArousal(5);
     }
 
-    @FXML
-    void home(ActionEvent event) throws IOException{
-        root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
-        stage = (Stage)rooter.getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
-    }
+
 
 
     @FXML
