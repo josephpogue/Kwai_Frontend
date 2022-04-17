@@ -63,6 +63,7 @@ public class loginController {
         stage = (Stage)rooter.getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
@@ -72,6 +73,7 @@ public class loginController {
         stage = (Stage)rooter.getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 

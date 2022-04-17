@@ -65,6 +65,7 @@ public class UserDashboardController implements Initializable{
         stage = (Stage)rooter.getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
@@ -74,6 +75,7 @@ public class UserDashboardController implements Initializable{
         stage = (Stage)rooter.getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
